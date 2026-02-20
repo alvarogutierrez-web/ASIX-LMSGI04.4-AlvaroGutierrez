@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cifp SYSTEM "cifp.dtd">
+<!--información alumno y profesor y representa externamente el archivo cifp.dtd-->
+<cifp>
+
+    <alumne id="1">
+        <nom>Joan</nom>
+        <llinatges>Garcia Serra</llinatges>
+        <data_naixement>2004-03-12</data_naixement>
+        <correu>joan@gmail.com</correu>
+        <telefon>600123456</telefon>
+        <adreca>Palma</adreca>
+        <data_matricula>2023-09-15</data_matricula>
+        <curs valor="DAM">DAM</curs>
+    </alumne>
+
+    <professor id="5">
+        <nom>Maria</nom>
+        <llinatges>Lopez Torres</llinatges>
+        <data_incorporacio>2015-09-01</data_incorporacio>
+        <departament valor="Informatica">Informatica</departament>
+
+        <assignatura id_assignatura="101">
+            <nom_assignatura cicle="DAM">Programacio</nom_assignatura>
+            <data_inici>2024-09-01</data_inici>
+        </assignatura>
+
+    </professor>
+
+</cifp>

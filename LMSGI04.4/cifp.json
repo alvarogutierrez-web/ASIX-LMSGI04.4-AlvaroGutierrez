@@ -1,0 +1,36 @@
+{
+  "cifp": {
+    "alumne": [
+      {
+        "id": 1,
+        "nom": "Joan",
+        "llinatges": "Garcia Serra",
+        "data_matricula": "2023-09-15",
+        "curs": "DAM"
+      },
+      {
+        "id": 10,
+        "nom": "Laura",
+        "llinatges": "Martinez Pons",
+        "data_matricula": "2022-09-15",
+        "curs": "DAW"
+      }
+    ],
+    "professor": [
+      {
+        "id": 3,
+        "nom": "Pere",
+        "llinatges": "Ribas Llull",
+        "data_incorporacio": "2010-09-01",
+        "departament": "Informatica",
+        "assignatura": [
+          {
+            "id_assignatura": 201,
+            "nom_assignatura": "Bases de Dades",
+            "cicle": "DAM"
+          }
+        ]
+      }
+    ]
+  }
+}

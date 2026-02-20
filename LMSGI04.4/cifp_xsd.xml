@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cifp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="cifp.xsd">
+<!--para la información de diferentes alumnos y profesores y referencia cifp.xsd para su validación-->
+    <alumne id="1">
+        <nom>Joan</nom>
+        <llinatges>Garcia Serra</llinatges>
+        <data_matricula>2023-09-15</data_matricula>
+        <curs>DAM</curs>
+    </alumne>
+
+    <alumne id="10">
+        <nom>Laura</nom>
+        <llinatges>Martinez Pons</llinatges>
+        <correu>laura@gmail.com</correu>
+        <data_matricula>2022-09-15</data_matricula>
+        <curs>DAW</curs>
+    </alumne>
+
+    <professor id="3">
+        <nom>Pere</nom>
+        <llinatges>Ribas Llull</llinatges>
+        <data_incorporacio>2010-09-01</data_incorporacio>
+        <departament>Informatica</departament>
+
+        <assignatura id_assignatura="201">
+            <nom_assignatura cicle="DAM">Bases de Dades</nom_assignatura>
+            <data_inici>2024-09-01</data_inici>
+        </assignatura>
+
+        <assignatura id_assignatura="202">
+            <nom_assignatura cicle="DAW">Entorns de Desenvolupament</nom_assignatura>
+        </assignatura>
+
+    </professor>
+
+</cifp>
